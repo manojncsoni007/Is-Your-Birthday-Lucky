@@ -116,6 +116,6 @@ img {
 @media (max-width: 900px) {
     .card {
         width: 90%;
-        font-size: small;
+        font-size: smaller;
     }
 }
