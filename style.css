@@ -116,6 +116,8 @@ img {
 @media (max-width: 900px) {
     .card {
         width: 90%;
+    }
+    label {
         font-size: smaller;
     }
 }
