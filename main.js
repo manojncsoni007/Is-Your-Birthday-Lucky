@@ -11,6 +11,6 @@ checkBtn.addEventListener('click', () => {
 
     const date = bDate.value;
     const number = lNumber.value;
-    
-   
+    displayMessage(number);
+
 })

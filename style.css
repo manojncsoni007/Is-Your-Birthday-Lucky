@@ -15,7 +15,7 @@ body {
     width: 50%;
     background-color: white;
     border-radius: 1rem;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .card-title {
@@ -84,6 +84,10 @@ button:hover {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     margin: auto;
 }
@@ -112,5 +116,6 @@ img {
 @media (max-width: 900px) {
     .card {
         width: 90%;
+        font-size: small;
     }
 }
