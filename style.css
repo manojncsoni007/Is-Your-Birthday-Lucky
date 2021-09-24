@@ -83,6 +83,36 @@ button:hover {
     display: block;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
+footer p {
+    font-size: large;
+    text-align: center;
+}
+
+.footer-list {
+    margin: 1rem;
+}
+
+a,
+img,
+li {
+    display: inline;
+    margin: 0 0.3rem;
+}
+
+img {
+    width: 40px;
+    padding: 0.2rem;
+}
+
 @media (max-width: 900px) {
     .card {
         width: 90%;
