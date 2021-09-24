@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-    margin: 4rem auto;
+    margin: 3rem auto 1rem;
     width: 50%;
     background-color: white;
     border-radius: 1rem;
@@ -84,10 +84,6 @@ button:hover {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
     text-align: center;
     margin: auto;
 }
